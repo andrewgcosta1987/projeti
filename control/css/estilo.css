@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+}
+.titulo-card{
+    font-size: 16px;
+}
+dl.card{
+    border: 1px solid #0000;
+    background-color: #ddd;
+    width: 100%;
+    text-align: center;
+    padding: 0 0 10px 0;
+    margin: 0 0 1em 1em;
+}
+.card dt{
+    font-weight: bold;
+    background-color: #131210;
+    color: #959289;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.card dd img{
+    border:1px solid #000;
+    width: 80%;
+    height: 10%;
+}
+.card dd{
+    margin:0;
+    padding: 0 10px 5px 10px;
+    font-size: 85%;
+}
+table, tr, td, th {
+    border: 1px solid #fff
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td img {
+    width: 100px;
+}
+figure img {
+    width: 100%;
+    margin: 5px;
+}
+#lado-e, #lado-d {
+    width: 50%;
+    float: left;
+    padding: 5px
+}
+#lado-d {
+    height: 600px;
+    overflow-y: auto
+}
+
+article{
+    display: block;
+    border: 1px solid #fff;
+}
+h1, h2 {
+    text-align: center;
+}
+.scrollspySite{
+    position: relative;
+    overflow-y: auto;
+    height: 330px;
+}
